@@ -1,10 +1,3 @@
-In this project, Javascript and DOM manipulation were used to append a table to a webpage about UFO sightings and add new rows of data for each UFO sighting. 
-Multiple filters were created to allow the user to search for UFO sightings using criteria based on the table columns.
-
-## Javascript Code
-
-```javascript
-
 // Set variable for data array in data.js
 var tableData = data;
 
@@ -77,10 +70,3 @@ submit.on("click", function() {
 	createTable(filteredArray);
 
 });
-
-
-```
-
-## UFO Website Filter Search
-
-![UFO Website Filter Search Image](images/filter_search.png)
